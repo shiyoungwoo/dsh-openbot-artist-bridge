@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "policy": "dsh-plugin-naming/v1",
+  "plugin": { "namespace": "local", "name": "openbot-artist-bridge", "coordinate": "local/openbot-artist-bridge", "packageName": "@local/dsh-openbot-artist-bridge" },
+  "names": { "pluginNames": ["openbot-artist-bridge"], "loaderIds": ["local-openbot-artist-bridge"], "services": [], "tools": [], "commands": [], "skills": [], "skillProviders": [], "events": [], "settingsNamespaces": [], "routes": [] }
+}

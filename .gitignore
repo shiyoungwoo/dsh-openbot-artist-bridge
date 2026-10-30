@@ -1,0 +1,14 @@
+node_modules/
+*.tgz
+.DS_Store
+
+# Local runtime socket and logs
+runtime/
+
+# Private local backups and configs
+.private/
+*.local-backup
+
+# Python bytecode
+__pycache__/
+*.pyc

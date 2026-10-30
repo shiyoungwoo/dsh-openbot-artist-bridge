@@ -1,0 +1,11 @@
+- insert:
+    - id: local-openbot-artist-bridge
+      name: '@local/dsh-openbot-artist-bridge'
+      config:
+        # ID of the DS Bot session the ACP frontend talks to.
+        # Find it in the DS Bot studio, or from the `botId` its host exposes.
+        botId: session-your-bot-session-id
+        # Absolute path of the AF_UNIX socket this bridge creates.
+        # Its parent directory is created with mode 0700.
+        socketPath: /absolute/path/to/dsh-openbot-artist-bridge/runtime/bridge.sock
+        timeZone: Asia/Shanghai
